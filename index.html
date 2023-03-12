@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="Css/app.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Javscript -->
+    <script defer src="JS/app.js"></script>
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation__logo">
+        <img src="images/logo.svg" alt="company logo" />
+      </div>
+      <div class="navigation__burger">
+        <img
+          class="menu-icon"
+          src="images/icon-hamburger.svg"
+          alt="navigation burger icon"
+        />
+        <img
+          src="images/icon-close.svg"
+          class="close-icon hide"
+          alt="navigation close icon"
+        />
+      </div>
+      <div class="modal hidden">
+        <ul class="navigation__list">
+          <li class="naviagation__list-item">
+            <a class="navigation__list-item-link" href="#">Product</a>
+          </li>
+          <li class="navigation__list-item">
+            <a class="navigation__list-item-link" href="#">Features</a>
+          </li>
+          <li class="navigation__list-item">
+            <a class="navigation__list-item-link" href="#">Pricing</a>
+          </li>
+          <div class="navigation__list-action">
+            <a class="navigation__list-action-link" href="#">Login</a>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <main class="main">
+      <div class="background-illustration"></div>
+      <img class="main__image" src="images/illustration-devices.svg" alt="" />
+      <div class="main__content">
+        <div class="main__content-title">
+          <span class="main__content-title-span">new</span>
+          <h4 class="main__content-title-heading">Monograph Dashboard</h4>
+        </div>
+        <h1 class="main__content-header">Powerful insights into your team</h1>
+        <h3 class="main__content-description">
+          Project planning and time tracking for agile teams
+        </h3>
+        <div class="main__content-buttons">
+          <button class="main__content-buttons-cta">Schedule a demo</button>
+          <button class="main__content-buttons-regular">
+            to see a preview
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
